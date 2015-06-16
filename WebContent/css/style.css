@@ -1,0 +1,251 @@
+body {
+	background-color: #fff;
+	font-family: 'OpenSans';
+	margin: 0;
+}
+img {
+	border: 0;
+}
+.clearfix:after, #contents:after {
+	clear:both;
+	content:"";
+	display:block;
+	height:1%;
+	line-height:0;
+	visibility:hidden;
+}
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	/*background-color: #eee;*/
+	background-color:  #98b3c9; /*#597ca2;*/  /*#00375d;*/
+	border-bottom: 1px solid #e6e6e6;
+	padding: 17px 0 0px 0;
+	margin: 0 0px;
+/* 	border: 1px solid red; */
+}
+#header > div, #footer > div {
+	width: 810px;
+	margin: 0 auto;
+	padding: 0 10px;
+/* 	border: 1px solid green; */
+}
+/** Logo **/
+#header .logo {
+	float: left;
+	margin-right: 20px;
+	display: block;
+}
+#header .logo a {
+	background: url("../images/logo2.png") no-repeat 10px 0px;
+/* 	background-position:  */
+	color: #f3f3ff;  /*#F8F8F8;*/
+	display: block;
+	font: 22px/30px 'Play';
+	height: 40px;
+	width: 276px;
+	padding-top: 90px;
+	padding-left: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+/* 	border: 1px dashed red; */
+}
+/** Navigation **/
+#navigation {
+	display: inline-block;
+	list-style: none;
+/* 	line-height: 100px; */
+	margin: 0;
+	padding: 0;
+}
+#navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+	width: 160px;
+	text-align: center;
+}
+#navigation li a {
+	color: #afafaf;
+	font-size: 20px;
+	line-height: 30px;
+	text-decoration: none;
+	display:block;
+	width: 158px;
+	background-color: #00375d;
+}
+#navigation li a:hover {
+	color: #000;
+	background-color: #78a6f2;
+}
+#navigation li.active a {
+	color: #f99600;
+}
+#navigation li.active a:hover {
+	color: #3d1c00;
+}
+/*--------------------------------- Topbox --------------------------------*/
+#topbox {
+	/*background: url(../images/bg-adbox.jpg) repeat-x left top;*/
+/* 	height: 500px; */
+	padding: 60px 0 20px 0;
+}
+#topbox > div {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0 80px;
+}
+#topbox > div img {
+	float: right;
+	margin-left: 50px;
+	margin-bottom: 0px;
+    margin-top: 80px;
+}
+#topbox h1, #topbox h2 {
+	color: #2c2c2c;
+	font-size: 30px;
+	line-height: 45px;
+	margin: 0;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+#topbox h2 {
+	font-size: 25px;
+	line-height: 36px;
+	text-transform: none;
+}
+#topbox p {
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0;
+}
+#topbox p span {
+	display: block;
+	font-size: 12px;
+	width: 360px;
+	padding: 24px 0;
+	text-align: center;
+}
+#topbox p span b {
+	font-weight: normal;
+	display: block;
+	width: 256px;
+}
+/*------------------------------ CONTENTS ------------------------------*/
+#contents {
+	min-height: 510px;
+	width: 880px;
+	margin: 0 auto;
+	padding: 55px 40px;
+}
+h1 {
+	color: #3e3e3e;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0 0 50px;
+}
+h2 {
+	color: #2c2c2c;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 0 12px;
+}
+p, ul{
+	color: #585858;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0 0 30px;
+}
+p a {
+	color: #585858;
+}
+
+#frontpage h1 {
+	margin-left: 20px;
+}
+#frontpage > div {
+	float: left;
+	width: 400px;
+	margin: 0 20px;
+}
+#contents .stuff {
+	width: 700px;
+	margin: 0 auto;
+	text-align: justify;
+}
+#team {
+	width: 740px;
+	margin: 0 auto;
+}
+#team h1, .contact_block h1 {
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 12px;
+}
+#team .member{
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 12px;
+	color: #585858;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0 0 30px;
+	height: 190px;
+	clear: both;
+}
+#team p{
+	margin: 0;
+}
+#team .member img {
+	float: left;
+	margin-right: 20px;
+	margin-top: 3px;
+	width: 110px;
+	height: 110px;
+}
+#team .member > p {
+	float:left; 
+	width: 150px; 
+	height: 150px;
+}
+
+#team .member > div {
+	margin-right: 20px;
+	margin-top: 3px;
+	float: left;
+	min-height: 150px;
+}
+
+#team .member > div.name {
+	width: 150px;
+/* 	height: 150px; */
+}
+#team .member > div.talants {
+	width: 400px;
+/* 	height: 150px; */
+}
+
+
+.contact_block {
+	/*float: left;*/
+	width: 500px;
+	margin: auto;
+	background-color: #f8f8f8;
+	padding: 124px 60px;
+}
+.contact_block h1 {
+	margin-bottom: 30px;
+}
+/*------------------------------ FOOTER ------------------------------*/
+#footer {
+	background-color: #eee;
+	border-top: 1px solid #d8d8d8;
+	padding: 30px 0;
+}
+#footer p {
+	font-size: 12px;
+	line-height: 30px;
+	padding-left: 10px;
+}
