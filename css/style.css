@@ -2,7 +2,7 @@ body {
 	background-color: #000000;
 	font-family: 'OpenSans';
 	margin: 0;
-	color: #cccccc
+	color: #C99155;
 }
 img {
 	border: 0;
@@ -18,10 +18,10 @@ img {
 /*------------------------------ HEADER ------------------------------*/
 #header {
 	background-color:  #000000; 
-	border-bottom: 1px solid #e6e6e6;
-	min-height: 170px;
+	min-height: 140px;
 	/*padding: 50px 0 0px 0;*/
-	margin: 50px 0 0;
+	margin: 50px 0 3;
+	/*border-bottom: 1px solid #5c5c5c;*/
 }
 #header > div, #footer > div {
 	width: 700px;
@@ -40,10 +40,10 @@ img {
 /*-----------------------  MENU ----------------------------------------*/
 
 #contents {
-	min-height: 510px;
+	min-height: 500px;
 	width: 880px;
-	margin: 0 auto;
-	padding: 50px 50px;
+	margin: 0 auto 50 auto;
+	padding: 0;
 }
 /** Navigation **/
 #navigation {
@@ -51,10 +51,10 @@ img {
 	list-style: none;
 /* 	line-height: 100px; */
 	height: 400px;
-	width: 250px;
-	margin: 0 0 0 20;
-	padding: 0;
-	border: 1px solid #5c5c5c;
+	width: 180px;
+	margin: 0;
+	padding: 50 0 0 30;
+	/*border: 1px solid #5c5c5c;*/
 }
 #navigation ul {
 	list-style: none;
@@ -64,28 +64,28 @@ img {
 #navigation li {
 	/*float: left;*/
 	/*width: 160px;*/
+	/*height: 40px;*/
 	text-align: left;
-	height: 40px;
+	font-size: 20px;
+	line-height: 45px;
 	display:block;
 }
 #navigation li a {
-	color: #afafaf;
-	font-size: 20px;
-	line-height: 30px;
+	color: #C99155;
 	text-decoration: none;
-	display:block;
-	/*width: 158px;*/
-	background-color: #00375d;
+	/*background-color: #00375d;*/
+	line-height: 45px;
 }
 #navigation li a:hover {
-	color: #000;
-	background-color: #78a6f2;
+	color: #E8DAC9;
+	/*background-color: #78a6f2;*/
 }
 #navigation li.active a {
-	color: #f99600;
+	font-weight: bold;
+	/*color: #F99600;*/
 }
 #navigation li.active a:hover {
-	color: #3d1c00;
+	color: #E8DAC9;
 }
 
 #contents > div {
@@ -95,14 +95,21 @@ img {
 
 #frontpage {
 	text-align: center;
-	padding-left:80px;
+	padding-left:20px;
+	padding-top: 0px;
 	min-width: 300px;
-	max-width: 500px;
-	border: 1px solid #5c5c5c;
+	max-width: 560px;
+	/*border: 1px solid #5c5c5c;*/
 }
 
+#footer{
+	font-size: 10;
+	color: #925A37;
+}
 
-
+#footer > div {
+	border-top: 2px solid #3D1C00;
+}
 
 
 
