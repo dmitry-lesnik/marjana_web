@@ -82,7 +82,10 @@ img {
 }
 #navigation li.active a {
 	font-weight: bold;
-	/*color: #F99600;*/
+	font-style: italic;
+	color: #FBB66B;
+	font-size: 24px;
+	text-decoration: underline;
 }
 #navigation li.active a:hover {
 	color: #E8DAC9;
