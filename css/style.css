@@ -20,11 +20,11 @@ img {
 	background-color:  #000000; 
 	min-height: 140px;
 	/*padding: 50px 0 0px 0;*/
-	margin: 50px 0 3px;
+	margin: 50px 0 0px;
 	/*border-bottom: 1px solid #5c5c5c;*/
 }
 #header > div, #footer > div {
-	width: 700px;
+	width: 800px;
 	margin: 0 auto;
 	padding: 10px 0;
 	text-align: center;
@@ -42,7 +42,7 @@ img {
 #contents {
 	min-height: 500px;
 	width: 880px;
-	margin: 0 auto 50px;
+	margin: 60px auto 50px;
 	padding: 0;
 }
 /** Navigation **/
@@ -102,12 +102,18 @@ img {
 }
 
 #frontpage {
-	text-align: center;
+	text-align: justify;
 	padding-left:20px;
 	padding-top: 0px;
-	min-width: 300px;
-	max-width: 560px;
+	/*min-width: 300px;*/
+	/*max-width: 560px;*/
+	width: 580px;
 	/*border: 1px solid #5c5c5c;*/
+	color: #E8DAC9;
+}
+
+#frontpage > div {
+	display: inline-block;
 }
 
 #footer{
@@ -117,6 +123,7 @@ img {
 
 #footer > div {
 	border-top: 2px solid #3D1C00;
+	margin-top: 30px;
 }
 
 
