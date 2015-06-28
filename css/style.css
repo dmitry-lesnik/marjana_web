@@ -87,6 +87,14 @@ img {
 #navigation li.active a:hover {
 	color: #E8DAC9;
 }
+#navigation li.clavier_duo {
+	line-height: 22px;
+	/*color: #E8DAC9;*/
+	margin-top: 40px;
+}
+#navigation li.clavier_duo a {
+	line-height: 22px;
+}
 
 #contents > div {
  	display: inline-block; 
