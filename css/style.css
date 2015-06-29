@@ -1,8 +1,13 @@
 body {
-	background-color: #000000;
+	/*background-color: #000000;*/
 	font-family: 'OpenSans';
 	margin: 0;
 	color: #C99155;
+	background: #000000 url("../images/piano_keys3.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;	
 }
 img {
 	border: 0;
@@ -17,13 +22,14 @@ img {
 }
 /*------------------------------ HEADER ------------------------------*/
 #header {
-	background-color:  #000000; 
+	/*background-color:  #000000; */
 	min-height: 140px;
 	/*padding: 50px 0 0px 0;*/
 	margin: 50px 0 0px;
 	/*border-bottom: 1px solid #5c5c5c;*/
 }
 #header > div, #footer > div {
+	background-color:  rgba(0,0,0,0.8); /*#000000;*/
 	width: 880px;
 	margin: 0 auto;
 	padding: 10px 0;
@@ -40,10 +46,11 @@ img {
 /*-----------------------  MENU ----------------------------------------*/
 
 #contents {
-	min-height: 500px;
+	background-color:  rgba(0,0,0,0.8); /*#000000;*/
+	min-height: 600px;
 	width: 880px;
 	margin: 60px auto 50px;
-	padding: 0;
+	padding: 30px 0;
 }
 /** Navigation **/
 #navigation {
@@ -119,6 +126,15 @@ img {
 	display: inline-block;
 }
 
+#frontpage div.main_image {
+	display: block;
+	float: right;
+	margin: 0;
+	/*margin-right: 10px;*/
+	/*margin-bottom: 20px;*/
+	/*margin-top: 10px;*/
+	/*margin-left: 30px;*/
+}
 #frontpage div.image {
 	/*display: inline;*/
 	float: left;
@@ -129,11 +145,12 @@ img {
 
 #footer{
 	font-size: 12px;
-	color: #925A37;
+	/*color: #925A37;*/
+	margin-bottom: 15px;
 }
 
 #footer > div {
-	border-top: 2px solid #3D1C00;
+	/*border-top: 2px solid #3D1C00;*/
 	margin-top: 30px;
 }
 
