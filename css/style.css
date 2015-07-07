@@ -20,6 +20,10 @@ img {
 	line-height:0;
 	visibility:hidden;
 }
+
+.block{
+	display: block;
+}
 /*------------------------------ HEADER ------------------------------*/
 #header {
 	/*background-color:  #000000; */
@@ -42,6 +46,9 @@ img {
 	line-height: 30px;
 	margin: 20 0 30px;
 }
+#header p{
+	font-size: 20px;
+}
 
 /*-----------------------  MENU ----------------------------------------*/
 
@@ -58,10 +65,11 @@ img {
 	list-style: none;
 /* 	line-height: 100px; */
 	height: 500px;
-	width: 160px;
+	width: 140px;
 	margin: 0;
-	padding: 20px 0 0 30px;
-	/*border: 1px solid #5c5c5c;*/
+	padding: 20px 20px 0 20px;
+	margin-left: 20px;
+	border: 1px solid;
 }
 #navigation ul {
 	list-style: none;
@@ -107,7 +115,7 @@ img {
 #navigation li.clavier_duo {
 	line-height: 22px;
 	/*color: #E8DAC9;*/
-	margin-top: 40px;
+	margin-top: 60px;
 }
 #navigation li.clavier_duo a {
 	line-height: 22px;
@@ -120,17 +128,20 @@ img {
 
 #frontpage {
 	text-align: justify;
-	padding-left: 80px;
+	padding-left: 60px;
 	padding-top: 0px;
 	/*min-width: 300px;*/
 	/*max-width: 560px;*/
 	width: 580px;
 	/*border: 1px solid #5c5c5c;*/
-	color: #E8DAC9;
+	/*color: #E8DAC9;*/
 }
 
 #frontpage > div {
 	display: inline-block;
+}
+#frontpage > div.block {
+	display: block;
 }
 
 #frontpage div.main_image {
