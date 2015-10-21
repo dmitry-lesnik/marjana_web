@@ -173,6 +173,11 @@ img {
 	margin-top: 5px;
 }
 
+#frontpage div.address {
+	text-align: center;
+	margin-top: 200px;
+}
+
 #footer{
 	font-size: 12px;
 	/*color: #925A37;*/
