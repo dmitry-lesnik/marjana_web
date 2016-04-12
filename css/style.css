@@ -183,6 +183,13 @@ img {
 	margin-top: 30px;
 	margin-bottom: 5px;
 }
+
+.concert_entry h3{
+	margin-top: 40px;
+	margin-bottom: 5px;
+	color: #844F17;
+}
+
 .concert_entry p{
 	margin-top: 0px;
 	margin-left: 20px;
