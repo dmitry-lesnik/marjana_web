@@ -158,12 +158,13 @@ img {
 
 #frontpage div.main_image {
 	display: block;
-	float: right;
+	float: left;
 	margin: 0;
+	
 	/*margin-right: 10px;*/
 	/*margin-bottom: 20px;*/
 	/*margin-top: 10px;*/
-	/*margin-left: 30px;*/
+	margin-left: 50px;
 }
 #frontpage div.image {
 	/*display: inline;*/
