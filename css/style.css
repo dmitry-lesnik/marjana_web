@@ -3,25 +3,25 @@ body {
 	font-family: 'OpenSans';
 	margin: 0;
 	color: #C99155;
-	background: #000000 url("../images/piano_keys3.jpg") no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;	
+	background: #000000 url("../images/piano_keys3.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 img {
 	border: 0;
 }
 .clearfix:after, #contents:after {
-	clear:both;
-	content:"";
-	display:block;
-	height:1%;
-	line-height:0;
-	visibility:hidden;
+	clear: both;
+	content: "";
+	display: block;
+	height: 1%;
+	line-height: 0;
+	visibility: hidden;
 }
 
-.block{
+.block {
 	display: block;
 }
 /*------------------------------ HEADER ------------------------------*/
@@ -33,20 +33,20 @@ img {
 	/*border-bottom: 1px solid #5c5c5c;*/
 }
 #header > div, #footer > div {
-	background-color:  rgba(0,0,0,0.6); /*#000000;*/
+	background-color: rgba(0,0,0,0.6); /*#000000;*/
 	width: 890px;
 	margin: 0 auto;
 	padding: 10px 0;
 	text-align: center;
 }
 #header h1 {
-/* 	color: #3e3e3e; */
+	/* 	color: #3e3e3e; */
 	font-size: 30px;
 	font-weight: normal;
 	line-height: 30px;
 	/*margin: 20 0 30px;*/
 }
-#header p{
+#header p {
 	font-size: 20px;
 }
 
@@ -61,11 +61,10 @@ img {
 	/*background-color: #78a6f2;*/
 }
 
-
 /*-----------------------  MENU ----------------------------------------*/
 
 #contents {
-	background-color:  rgba(0,0,0,0.6); /*#000000;*/
+	background-color: rgba(0,0,0,0.6); /*#000000;*/
 	min-height: 600px;
 	width: 890px;
 	margin: 60px auto 50px;
@@ -75,7 +74,7 @@ img {
 #navigation {
 	float: left;
 	list-style: none;
-/* 	line-height: 100px; */
+	/* 	line-height: 100px; */
 	height: 500px;
 	width: 140px;
 	margin: 0;
@@ -95,7 +94,7 @@ img {
 	text-align: left;
 	font-size: 20px;
 	line-height: 45px;
-	display:block;
+	display: block;
 }
 
 #navigation li.header > div {
@@ -134,8 +133,8 @@ img {
 }
 
 #contents > div {
- 	display: inline-block; 
-/* 	margin-left:101px; */
+	display: inline-block;
+	/* 	margin-left:101px; */
 }
 
 #frontpage {
@@ -160,7 +159,6 @@ img {
 	display: block;
 	float: left;
 	margin: 0;
-	
 	/*margin-right: 10px;*/
 	/*margin-bottom: 20px;*/
 	/*margin-top: 10px;*/
@@ -179,24 +177,24 @@ img {
 	margin-top: 200px;
 }
 
-.concert_entry h4{
+.concert_entry h4 {
 	margin-top: 30px;
 	margin-bottom: 5px;
 }
 
-.concert_entry h3{
+.concert_entry h3 {
 	margin-top: 40px;
 	margin-bottom: 5px;
 	color: #844F17;
 }
 
-.concert_entry p{
+.concert_entry p {
 	margin-top: 0px;
 	margin-left: 20px;
 	margin-bottom: 0px;
 }
 
-#footer{
+#footer {
 	font-size: 12px;
 	/*color: #925A37;*/
 	margin-bottom: 15px;
@@ -206,17 +204,4 @@ img {
 	/*border-top: 2px solid #3D1C00;*/
 	margin-top: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
