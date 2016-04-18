@@ -24,6 +24,18 @@ img {
 .block {
 	display: block;
 }
+
+a {
+	color: #C99155;
+	text-decoration: underline;
+	/*background-color: #00375d;*/
+	line-height: 45px;
+}
+
+a:hover {
+	color: #E8DAC9;
+}
+
 /*------------------------------ HEADER ------------------------------*/
 #header {
 	/*background-color:  #000000; */
