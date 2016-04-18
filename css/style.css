@@ -113,6 +113,7 @@ img {
 	color: #E8DAC9;
 	/*background-color: #78a6f2;*/
 }
+
 #navigation li.active a {
 	/*font-weight: bold;*/
 	/*font-style: italic;*/
@@ -193,6 +194,21 @@ img {
 	margin-left: 20px;
 	margin-bottom: 0px;
 }
+
+
+.concert_entry a {
+	color: #C99155;
+	text-decoration: underline;
+	/*background-color: #00375d;*/
+	line-height: 45px;
+}
+
+.concert_entry a:hover {
+	color: #E8DAC9;
+	/*background-color: #78a6f2;*/
+}
+
+
 
 #footer {
 	font-size: 12px;
