@@ -29,7 +29,7 @@ a {
 	color: #C99155;
 	text-decoration: underline;
 	/*background-color: #00375d;*/
-	line-height: 45px;
+	/*line-height: 45px;*/
 }
 
 a:hover {
@@ -66,8 +66,7 @@ a:hover {
 	color: #C99155;
 	text-decoration: none;
 	/*background-color: #00375d;*/
-	/*line-height: 45px;*/
-}
+	/*line-height: 30px;*/}
 #header a:hover {
 	/*color: #E8DAC9;*/
 	/*background-color: #78a6f2;*/
@@ -113,6 +112,9 @@ a:hover {
 	border-bottom: 2px solid;
 	margin-bottom: 20px;
 	font-size: 30px;
+}
+#navigation a {
+	line-height: 45px;
 }
 
 #navigation li a {
