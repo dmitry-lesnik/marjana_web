@@ -129,6 +129,7 @@ a:hover {
 }
 
 #navigation li.active a {
+    background-color: #3c240a;
 	/*font-weight: bold;*/
 	/*font-style: italic;*/
 	/*color: #FBB66B;*/
