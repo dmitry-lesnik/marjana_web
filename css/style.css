@@ -97,6 +97,7 @@ a:hover {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+        /*padding-inline-start: 40px;*/
 }
 #navigation li {
 	/*float: left;*/
@@ -142,7 +143,7 @@ a:hover {
 #navigation li.clavier_duo {
 	line-height: 22px;
 	/*color: #E8DAC9;*/
-	margin-top: 60px;
+	margin-top: 20px;
 }
 #navigation li.clavier_duo a {
 	line-height: 22px;
