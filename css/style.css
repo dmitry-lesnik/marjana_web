@@ -1,10 +1,14 @@
 body {
 	/*background-color: #000000;*/
-	font-family: 'OpenSans', serif;
+	/*font-family: 'OpenSans', "DejaVu Sans", sans-serif;*/
+	font-family: 'OpenSans', "DejaVu Sans", serif;
+	/*font-family: 'OpenSans', sans-serif;*/
 	margin: 0;
 	color: #C99155;
-	font-size: 20px;
+	font-size: 18px;
 	background: #000000 url("../images/piano_keys3.jpg") no-repeat center center fixed;
+	/*width: 2000px;*/
+	/*height: 1288px;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -104,7 +108,7 @@ a:hover {
 	/*width: 160px;*/
 	/*height: 40px;*/
 	text-align: left;
-	font-size: 24px;
+	font-size: 22px;
 	line-height: 45px;
 	display: block;
 }
