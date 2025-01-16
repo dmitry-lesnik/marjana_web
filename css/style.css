@@ -1,8 +1,9 @@
 body {
 	/*background-color: #000000;*/
-	font-family: 'OpenSans';
+	font-family: 'OpenSans', serif;
 	margin: 0;
 	color: #C99155;
+	font-size: 20px;
 	background: #000000 url("../images/piano_keys3.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -41,7 +42,7 @@ a:hover {
 	/*background-color:  #000000; */
 	min-height: 140px;
 	/*padding: 50px 0 0px 0;*/
-	margin: 50px 0 0px;
+	margin: 50px 0 0;
 	/*border-bottom: 1px solid #5c5c5c;*/
 }
 #header > div, #footer > div {
@@ -88,9 +89,8 @@ a:hover {
 	/* 	line-height: 100px; */
 	height: 500px;
 	width: 140px;
-	margin: 0;
 	padding: 20px 20px 0 20px;
-	margin-left: 20px;
+	margin: 0 0 0 20px;
 	border: 1px solid;
 }
 #navigation ul {
@@ -104,7 +104,7 @@ a:hover {
 	/*width: 160px;*/
 	/*height: 40px;*/
 	text-align: left;
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 45px;
 	display: block;
 }
