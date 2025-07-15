@@ -57,9 +57,11 @@
         </ul>
     </div>
     <div id="frontpage">
-        <div class="main_image">
-            <!-- <img alt="" src="images/marjana_in_red.jpg" width="100%"> -->
-            <img alt="" src="images/marjana_1_small.jpg" height="520">
+        <div class="image-container">
+            <div class="image">
+                <img class="thumbnail" alt="Marjana Plotkina" src="images/MP_2.small.jpeg"
+                     data-large-src="images/MP_2.large.jpeg" height="800">
+            </div>
         </div>
     </div>
 </div>
@@ -70,6 +72,16 @@
         </p>
     </div>
 </div>
+
+<!-- Add this Modal HTML at the bottom -->
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+<script src="js/main.js" defer></script>
+
+
 </body>
 </html>
 
