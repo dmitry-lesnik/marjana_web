@@ -51,16 +51,21 @@
         </ul>
     </div>
     <div id="frontpage">
-        <div class="block">
 
+        <div class="image-container">
+            <div class="image">
+                <img class="thumbnail" alt="Anna Plotkina portrait" src="images/AP_3.small.jpeg"
+                     data-large-src="images/AP_3.large.jpeg" height="320">
+            </div>
+            <div class="image">
+                <img class="thumbnail" alt="Anna Plotkina playing piano" src="images/AP_1.small.jpeg"
+                     data-large-src="images/AP_1.large.jpeg" height="320">
+            </div>
+            <div class="image">
+                <img class="thumbnail" alt="Anna Plotkina portrait" src="images/AP_2.small.jpeg"
+                     data-large-src="images/AP_2.large.jpeg" height="320">
+            </div>
         </div>
-
-
-        <div class="image">
-<!--                        <img alt="" src="images/Anna_Plotkina_Foto.jpg" height="520">-->
-            <img alt="" src="images/anna_plotkina_1.small.jpg" height="520">
-        </div>
-
 
     </div>
 </div>
@@ -71,6 +76,49 @@
         </p>
     </div>
 </div>
+
+<!-- Add this Modal HTML at the bottom -->
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+<script>
+    // Get the modal element
+    var modal = document.getElementById("imageModal");
+
+    // Get the image element inside the modal
+    var modalImg = document.getElementById("modalImage");
+
+    // Get all thumbnail images
+    var thumbnails = document.getElementsByClassName("thumbnail");
+
+    // Loop through all thumbnails and add a click event
+    for (let i = 0; i < thumbnails.length; i++) {
+      thumbnails[i].onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.dataset.largeSrc; // Use the data-large-src attribute
+      }
+    }
+
+    // Get the <span> element that closes the modal
+    var closeBtn = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    closeBtn.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // Also close the modal when a user clicks on the dark background
+    modal.onclick = function(event) {
+      // Check if the clicked element is the modal background itself, not the image
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+</script>
+
+
 </body>
 </html>
 
