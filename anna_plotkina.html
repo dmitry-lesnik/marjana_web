@@ -84,38 +84,49 @@
 </div>
 
 <script>
-    // Get the modal element
-    var modal = document.getElementById("imageModal");
 
-    // Get the image element inside the modal
-    var modalImg = document.getElementById("modalImage");
+    // Wait for the document to fully load before running the script
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get the modal and its components
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("modalImage");
+        const closeBtn = document.querySelector(".modal .close");
+        const thumbnails = document.getElementsByClassName("thumbnail");
 
-    // Get all thumbnail images
-    var thumbnails = document.getElementsByClassName("thumbnail");
+        // Function to open the modal
+        const openModal = function() {
+            modal.style.display = "block";
+            modalImg.src = this.dataset.largeSrc; // Use the data-large-src attribute
+            modalImg.alt = this.alt; // Copy alt text for accessibility
+        };
 
-    // Loop through all thumbnails and add a click event
-    for (let i = 0; i < thumbnails.length; i++) {
-      thumbnails[i].onclick = function() {
-        modal.style.display = "block";
-        modalImg.src = this.dataset.largeSrc; // Use the data-large-src attribute
-      }
-    }
+        // Function to close the modal
+        const closeModal = function() {
+            modal.style.display = "none";
+        };
 
-    // Get the <span> element that closes the modal
-    var closeBtn = document.getElementsByClassName("close")[0];
+        // Add click event listeners to all thumbnails
+        for (const thumbnail of thumbnails) {
+            thumbnail.addEventListener('click', openModal);
+        }
 
-    // When the user clicks on <span> (x), close the modal
-    closeBtn.onclick = function() {
-      modal.style.display = "none";
-    }
+        // Add click event listener to the close button
+        closeBtn.addEventListener('click', closeModal);
 
-    // Also close the modal when a user clicks on the dark background
-    modal.onclick = function(event) {
-      // Check if the clicked element is the modal background itself, not the image
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
+        // Close the modal when clicking on the background
+        modal.addEventListener('click', function(event) {
+            if (event.target === modal) {
+                closeModal();
+            }
+        });
+
+        // Add keyboard accessibility (Escape key to close)
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape' && modal.style.display === "block") {
+                closeModal();
+            }
+        });
+    });
 </script>
 
 
